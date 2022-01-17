@@ -40,26 +40,7 @@ const moviesController = {
             .then(movies => {
                 res.render('recommendedMovies.ejs', {movies});
             });
-    }, //Aqui debemos modificar y completar lo necesario para trabajar con el CRUD
-    add: function (req, res) {
-        // TODO   
-    },
-    create: function (req, res) {
-        // TODO
-    },
-    edit: function(req, res) {
-        // TODO
-    },
-    update: function (req,res) {
-        // TODO
-    },
-    delete: function (req, res) {
-        // TODO
-    },
-    destroy: function (req, res) {
-        // TODO
-    }
-
+    }, 
 }
 
 module.exports = moviesController;
